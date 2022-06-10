@@ -1,29 +1,29 @@
-
 #include "solution.h"
 
 char* erase(char* chaine) {
-    int i, j;
+    int i = 0, j = 0;
+    int taille = strlen(chaine);
+    char* newChaine = malloc( sizeof(char) * taille);
+    
     while(chaine[i] != '\0'){
-        if(chaine[i] == ' ' && chaine[i+1] != ' '){
-            j++;
-        }else{
-            chaine[j] = chaine[i];
-            j++;
-        }
+        if(chaine[i] != ' '){
+          newChaine[j] = chaine[i];
+          j++;
 
-        i++;
+        }else if(chaine[i] == ' ' && chaine[i+1] == ' '){
+          newChaine[j] = chaine[i];
+          j++;
+
+        }else if( i > 0 && chaine[i] == ' ' && chaine[i-1] == ' '){
+          newChaine[j] = chaine[i];
+          j++;
+
+        }
+    i++;
+
     }
     
-    
-    
+    newChaine[j] = '\0';
 
-
-
-    printf("%s", chaine);
-    return chaine;
-}
-
-
-int main() {
-    printf("%s\n",erase(" Cou cou  J M  B "));
+    return newChaine;
 }
