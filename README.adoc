@@ -138,8 +138,8 @@ Vous utiliserez le dépôt initial qui vous aura été attribué via classroom p
 [options="header"]
 |==========================================================================
 | #    | lien                                        | langage  | catégorie
-| 1    | link:src/main/java/eraser/Eraser.java[ici]  | Java     | Simplicité
-| 1    | https://github.com/IUT-Blagnac/sae2-02-Dourlent-Maxime/blob/main/solution.c                             | C        | Sobriété numérique      
+| 1    | https://github.com/IUT-Blagnac/sae2-02-Dourlent-Maxime/blob/main/solution.c 
++  https://github.com/IUT-Blagnac/sae2-02-Dourlent-Maxime/blob/main/solution.h                             | C        | Sobriété numérique      
 |==========================================================================
 
 === Phase 2 (deadline : **vendredi 17 juin 2022** à minuit)
