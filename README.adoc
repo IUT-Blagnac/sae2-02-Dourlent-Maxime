@@ -184,6 +184,7 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 - https://www.codacy.com pour les mesures de qualité
 - La méthode System.nanoTime() pour les mesures de temps pour le Java
 - La méthode clock() de la librairie <time.h> pour les mesures de temps pour le C
+- La méthode time() de la librairie time pour les mesures de temps pour le Python
 
 == Généralités, notation de la SAÉ et résultat du concours
 
