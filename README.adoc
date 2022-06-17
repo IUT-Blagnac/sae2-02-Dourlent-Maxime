@@ -153,20 +153,37 @@ WARNING: Les répertoires et fichiers existants devront être complétés et mis
 
 === Pré-requis
 
-- Java v.x.y.z
-- ...
+- Compilateur Java, C et Python
 
 === Reproductibilité
 
 - Pour reproduire mon analyse :
-. Installez X
-. Lancez Y
-. ...
+-En Java :
+.	Ouvrir Eclipse
+.	Importer les fichiers d’algorithmes dans des packages correspondants
+.	Mettre en place un main avec les imports des autres fichiers
+.	Appliquer les tests nécessaires
+
+-En C :
+.	Consulter le site « replit.com »
+.	Ouvrir un « Repl » (repository) avec le langage correspondant
+.	Ajouter les fichiers à tester
+.	Mettre en place les éléments pour lancer la méthode à tester
+.	Appliquer les tests nécessaires
+
+-En Python :
+.	Ouvrir le site « JupyterHub »
+.	Importer les fichiers d’algorithmes
+.	Mettre en place un main pour appeler les méthodes
+.	Appliquer les tests nécessaires
 
 === Références
 
-- link:http://xyz[Mon super outil XYZ]
-- ...
+- https://replit.com
+- https://jupyterhub.iut-blagnac.fr/
+- https://www.codacy.com pour les mesures de qualité
+- La méthode System.nanoTime() pour les mesures de temps pour le Java
+- La méthode clock() de la librairie <time.h> pour les mesures de temps pour le C
 
 == Généralités, notation de la SAÉ et résultat du concours
 
